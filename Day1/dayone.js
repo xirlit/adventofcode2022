@@ -1,8 +1,11 @@
+// partOne - 67622
+// partTwo - 201491
+
 const fs = require('fs');
 
 const path = require('node:path');
 
-dayOne = () => {
+const dayOne = (partOne) => {
     const data = fs.readFileSync(path.resolve(__dirname, 'data.dat'), 'utf-8');
 
     const sums = data.split("\r\n\r\n")
@@ -13,6 +16,10 @@ dayOne = () => {
                     0
                 );
         });
+
+    if (partOne) {
+        return Math.max(...sums);
+    }
 
     return sums.sort((a, b) => b - a)
         .slice(0, 3)
