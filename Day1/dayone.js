@@ -2,7 +2,6 @@
 // partTwo - 201491
 
 const fs = require('fs');
-
 const path = require('node:path');
 
 const dayOne = (partOne) => {

@@ -2,7 +2,6 @@
 // partTwo - 11696
 
 const fs = require('fs');
-
 const path = require('node:path');
 
 // A, X, R - rock
