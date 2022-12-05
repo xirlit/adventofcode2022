@@ -1,5 +1,5 @@
 // partOne - 424
-// partTwo - 2716
+// partTwo - 804
 
 const fs = require('fs');
 const path = require('node:path');
