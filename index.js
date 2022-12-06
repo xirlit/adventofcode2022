@@ -2,6 +2,7 @@ const { dayOne } = require('./Day1/dayone.js');
 const { dayTwo } = require('./Day2/daytwo.js');
 const { dayThree } = require('./Day3/daythree.js');
 const { dayFour } = require('./Day4/dayfour.js');
+const { dayFive } = require('./Day5/dayfive.js');
 
 // Day 1
 console.log(`dayone (part1): ${dayOne(true)}`);
@@ -18,3 +19,7 @@ console.log(`daythree (part2): ${dayThree(false)}`);
 // Day 4
 console.log(`dayfour (part1): ${dayFour(true)}`);
 console.log(`dayfour (part2): ${dayFour(false)}`);
+
+// Day 5
+console.log(`dayfive (part1): ${dayFive(true)}`);
+console.log(`dayfive (part2): ${dayFive(false)}`);
